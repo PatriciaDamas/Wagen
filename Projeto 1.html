@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="text/javascript" src="Projeto 1.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body id="pagSec">
+    <canvas id="myCanvas" width="1800" height="650">
+        Your browser does not support HTML5 Canvas.
+    </canvas>
+    <!--Div que mostra o relógio-->
+    <div id="clock">
+
+    </div>
+
+
+    <!--Div que contém os botões de comando-->
+    <div id="div_btn" class="raw">
+        <div class="col-md-12">
+            <!--Coluna de control do som-->
+            <div class="col-md-2">
+                <button type="image" srs="arrowDown.png" id="mute" style="font-size:24px"> <i class="material-icons">volume_off</i></button>
+                <button id="unMute" style="font-size:24px"> <i class="material-icons">volume_up</i></button>
+            </div>
+            <!--Coluna vazia-->
+            <div class="col-md-2">
+            </div>
+            <!--Coluna da arrow direita-->
+            <div class="col-md-2">
+                <p>
+                    <!--<button id="btnArrowR" type="button" class="btn btn-default btn-sm">
+        Rodar
+        <span class="glyphicon">&#xe092;</span>
+        </button>-->
+                </p>
+            </div>
+            <!--Coluna vazia-->
+            <div class="col-md-1">
+            </div>
+            <!--Coluna da arrow esquerda-->
+            <div class="col-md-2">
+                <p>
+                    <!--<button id="btnArrowL" type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon">&#xe091;</span>
+        Rodar
+        </button>-->
+                </p>
+            </div>
+            <!--Coluna vazia-->
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-1">
+                <!--Botão de voltar com link para a página inicial-->
+                <a href="PagInicial.html" id="btnVoltar" class="btn btn-default btn-sm" role="button">Voltar</a>
+            </div>
+        </div>
+        <!--musica ambiente do jogo-->
+
+    </div>
+    </div>
+    <audio id="myAudio" autoplay loop>
+        <source src="musicaJogoWagon2.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+    </audio>
+
+</body>
+
+</html>

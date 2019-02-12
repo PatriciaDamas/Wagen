@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="Projeto 1.js"></script>
+</head>
+
+<body id="pagIni">
+
+    <div id="div_btn" style="position:absolute;vertical-align:middle;text-align:center;background-color: white;">
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button id="btnJogar" class="btn center-block" data-toggle="modal" data-target="#myModal"> Jogar</button><br>
+        <button id="btnPont" class="btn center-block" data-toggle="modal" data-target="#modalPont"> Pontuação</button><br>
+        <button id="btnCred" class="btn center-block" data-toggle="modal" data-target="#modalCred"> Créditos</button> <br>
+        <button id="ajuda" class="btn center-block" data-toggle="modal" data-target="#modalAj"> Ajuda</button> <br>
+
+
+        <!-- Modal Jogador-->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal Jogador-->
+                <div id="modal" class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Nome do Jogador</h4>
+                        <br>
+                        <form>
+                            <div class="form-group">
+                                <input id="jogador" type="text" class="form-control" placeholder="Jogador">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button id="modalNome" type="button" class="btn center-block" data-dismiss="modal"><a href="Projeto 1.html"></a>Inserir</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Modal Pontuação-->
+        <div class="modal fade" id="modalPont" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal Pontuação-->
+                <div id="modalPont2" class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h3 class="modal-title">Ranking</h3>
+                        <br>
+                        <div class="modal-body">
+                            <p>Em desenvolvimento</p>
+
+                        </div>
+                    </div>
+                    <br>
+                    <p></p>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <!-- Modal Créditos-->
+        <div class="modal fade" id="modalCred" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal Créditos-->
+                <div id="modalC" class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h3 class="modal-title">Créditos</h3>
+                        <br>
+                        <div class="modal-body">
+                            <p>Desenvolvido por:</p>
+                            <p>Joana Mendes <br> Cláudia Damas <br> António Carvalho</p>
+
+                        </div>
+                    </div>
+                    <br>
+                    <p>Música de fundo:</p>
+                    <p> nome: It´s a small world</p>
+                    <p> Autoria: Disney</p>
+                    <p> Fonte: Youtube</p>
+                    <p> Link: https://www.youtube.com/watch?v=px22GHX5PGk</p>
+                    <br>
+                    <p>Imagem:</p>
+                    <p>Autoria: Herbertrocha</p>
+                    <p> Fonte: Deviant Art</p>
+                    <p> Link: http://herbertrocha.deviantart.com/art/Winter-Train-Station-245169090</p>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+        <!-- Modal Ajuda-->
+        <div class="modal fade" id="modalAj" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal Ajuda-->
+                <div id="modalAjuda" class="modal-content">
+                    <div>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h3 class="modal-title">Instruções</h3>
+                        <br>
+                        <div class="modal-body">
+                            <p>O objetivo deste jogo é o de construir um comboio com uma determinada sequência de carruagens!</p>
+                            <p>Cada carruagem tem uma cor e terás que ordená-las segundo o exemplo que te é dado.</p>
+                            <p>Usa as teclas "direita" e "esquerda" no teu teclado para moveres a roda central e assim poderes
+                                escolher a carruagem que queres juntar ao teu comboio.</p>
+                            <p>Mas não te esqueças que só tens um minuto para completar a sequência!</p>
+                            <h3><p>Diverte-te!</p></h3>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

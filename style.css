@@ -1,0 +1,154 @@
+* { margin: 0; padding: 0;}
+
+#pagSec { height:100%; 
+background-image: url("Fundo.png");
+background-repeat: no-repeat;
+background-size: 1800px 730px;
+
+}
+
+#fimJogo{
+    background-image: url("conseguiste.png");
+    background-repeat: no-repeat;
+
+}
+
+#clock {
+    padding: 10px;
+    position:absolute;
+    top: 0px;
+    right: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 300%;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+#mostrar{
+    position:absolute;
+    align-self: center;
+}
+
+#pont{
+    color: white;
+}
+
+
+
+#div_btn {
+    width:100%;
+    height:100%;
+
+    background-image: url("Fundo.png");
+    vertical-align: center;
+}
+
+
+#btnJogar, #btnPont, #btnCred, #ajuda{
+    background-color: white;
+    width: 200px; 
+    height: 35px;
+    font-size: 18px;
+
+}
+
+#btnJogar:hover, #btnPont:hover, #btnCred:hover,#ajuda:hover{
+    background-color: darkorange;
+}
+
+#btnArrowR, #btnArrowL {
+    background-color: orange;
+    width: 100px; 
+    height: 35px;
+    font-size: 18px;
+    vertical-align: right;
+}
+
+#btnArrowR:hover, #btnArrowL:hover,{
+    background-color: darkorange;
+}
+#btnVoltar{
+    background-color: orange;
+    width: 80px; 
+    height: 35px;
+    font-size: 18px;
+    vertical-align: right;
+}
+
+#btnVoltar:hover{
+    background-color: darkorange;
+}
+
+#mute, #unMute{
+    background-color: orange;
+    width: 60px; 
+    height: 35px;
+    font-size: 18px;
+vertical-align: left;
+}
+
+#mute:hover, #unMute:hover{
+    background-color: darkorange;
+}
+
+#modalC{
+    background-color: #38b449;
+     color: white;
+      width: 600px;
+      height: 535px;
+     display: inline-block;
+     vertical-align: center;
+}
+#modalPont2{
+    background-color: #38b449;
+     color: white;
+      width: 600px;
+      height: 535px;
+     display: inline-block;
+     vertical-align: center;
+}
+
+#modalAjuda{
+    background-color: #38b449;
+     color: white;
+      width: 600px;
+      height: 280px;
+     display: inline-block;
+     vertical-align: center;
+}
+
+#modal{
+     background-color: #38b449;
+     color: white;
+     width: 300px;
+     display: inline-block;
+     vertical-align: center;
+       
+}
+
+#modalNome{
+     background-color: white;
+      color: black;
+}
+#modalNome:hover{
+ background-color:lightgray;
+}
+
+#pagIni{  
+
+background-image: url("FundoInicial.png");
+background-repeat: no-repeat;
+/*background-size: 1800px 730px;*/
+background-attachment: fixed;
+background-color: black;
+    width: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+
+}
